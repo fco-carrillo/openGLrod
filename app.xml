@@ -1,9 +1,11 @@
 <?xml version="1.0"?>
 
 <data>
-	 <application name="OpenGL demos from Rod">
-                        <command>gplay crab.avi &amp;</command>
-                        <route>/openglRod</route>
-         </application>
-
+	<module name="OpenGL">
+		 <application name="OpenGL demos from Rod">
+				<description>This is a demo created by Rod</description>
+		                <command>gplay crab.avi &amp;</command>
+		                <route>/openglRod</route>
+		 </application>
+	</module>
 </data>
