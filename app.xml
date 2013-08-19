@@ -2,10 +2,41 @@
 
 <data>
 	<module name="OpenGL">
-		 <application name="OpenGL demos from Rod">
-				<description>This is a demo created by Rod</description>
-		                <command>gplay crab.avi &amp;</command>
-		                <route>/openglRod</route>
+		 <application name="OpenGL Rod demo 1 0">
+				<description>This is a demo set created by Rod Borras. a Wireframe cube </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 1 0;} &amp; </command>
+		                <route>openglRod10</route>
 		 </application>
+		  <application name="OpenGL Rod demo 1 1">
+				<description>This is a demo set created by Rod Borras. a Color cube </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 1 1;} &amp;</command>
+		                <route>openglRod11</route>
+		 </application>
+		<application name="OpenGL Rod demo 1 2">
+				<description>This is a demo set created by Rod Borras. a cube with textures </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 1 2; } &amp;</command>
+		                <route>openglRod12</route>
+		 </application>
+		<application name="OpenGL Rod demo 2 5 1">
+				<description>This is a demo set created by Rod Borras. A figure with 5 triangles and earth texture </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 2 5 1;} &amp;</command>
+		                <route>openglRod251</route>
+		 </application>
+		<application name="OpenGL Rod demo 2 15 1">
+				<description>This is a demo set created by Rod Borras. A figure with 15 triangles and earth texture </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 2 15 1; } &amp;</command>
+		                <route>openglRod2151</route>
+		 </application>
+		<application name="OpenGL Rod demo 2 20 2">
+				<description>This is a demo set created by Rod Borras. A figure with 20 triangles and Moon texture </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 2 20 2; } &amp;</command>
+		                <route>openglRod2202</route>
+		 </application>
+		<application name="OpenGL Rod demo 3 cone">
+				<description>This is a demo set created by Rod Borras. A loaded model </description>
+		                <command>{ cd demos/openGLrod; ./rodgl 3 cone; } &amp;</command>
+		                <route>openglRod3cone</route>
+		 </application>
+		
 	</module>
 </data>
